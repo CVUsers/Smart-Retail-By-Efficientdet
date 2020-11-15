@@ -1,0 +1,26 @@
+<annotation>
+	<folder>SpriteImage</folder>
+	<filename>134.jpg</filename>
+	<path>C:\Users\jauok\Desktop\SpriteImage\134.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Cola</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>275</xmin>
+			<ymin>130</ymin>
+			<xmax>360</xmax>
+			<ymax>373</ymax>
+		</bndbox>
+	</object>
+</annotation>
