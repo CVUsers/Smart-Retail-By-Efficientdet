@@ -34,10 +34,10 @@ VOC_CATEGORIES = ['aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus', 'car'
 #                    'Expressway-Service-area', 'stadium', 'airport', 'baseballfield', 'bridge', 'windmill', 'overpass']
 DIOR_CATEGORIES = ['Sprite', 'Cola']
 parser = argparse.ArgumentParser(description='2COCO')
-parser.add_argument('--image_path', type=str, default='./train2017/', help='config file')
+parser.add_argument('--image_path', type=str, default='./annotations/train2017/', help='config file')
 parser.add_argument('--annotation_path', type=str, default='./annotations/', help='config file')
 parser.add_argument('--dataset', type=str, default='DIOR', help='config file')
-parser.add_argument('--save', type=str, default='./instances_train2017.json', help='config file')
+parser.add_argument('--save', type=str, default='./annotations/instances_train2017.json', help='config file')
 
 args = parser.parse_args()
 

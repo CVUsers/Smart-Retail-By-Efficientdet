@@ -14,7 +14,7 @@ from efficientdet.utils import BBoxTransform, ClipBoxes
 from utils.utils import preprocess, invert_affine, postprocess, preprocess_video
 
 # Video's path
-video_src = 'demo.mp4'  # set int to use webcam, set str to read from a video file
+video_src = 'D:\Memory_Demo\Smart-retail-yolov5\inference\images\demo.mp4'  # set int to use webcam, set str to read from a video file
 
 compound_coef = 3
 force_input_size = None  # set None to use default size
